@@ -1,0 +1,28 @@
+.home-container{
+    width: 100%;   
+    padding:5px 60px;
+}
+.grid-container{
+    position: relative;
+}
+.temp-head{
+  font-size: 30px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+.temp-para{
+  font-size: 15px;
+  margin-bottom: 25px;
+}
+.temp1{
+    width: 65%;
+}
+.temp2{
+    width: 65%;
+}
+.use-template{
+    position: absolute;
+    top:50%;
+    right: 50%;
+}
+
