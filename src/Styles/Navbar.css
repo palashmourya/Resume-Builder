@@ -1,0 +1,28 @@
+.navigation{
+  border-radius: 2px;
+  background-color: white;
+  box-shadow: 0px 0px 8px 4px rgb(228, 228, 228);
+  overflow: hidden;
+}
+.logo-img{
+    height: 25px;
+    padding: 20px 0 0 17px;
+}
+.side-nav{
+    display: flex;
+    flex-direction: row;
+    float: right;
+}
+.side-nav .nav-link{
+    position: relative;
+    padding: 0 15px;
+    text-decoration: none;
+    bottom:30px;
+    right:55px;
+    font-size: 19px;
+    color: black;
+    font-weight: 500;
+}
+.side-nav .nav-link:hover{
+    color: rgb(0, 98, 255);
+}
