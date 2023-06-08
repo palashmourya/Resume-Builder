@@ -11,20 +11,22 @@ export const Home = () => {
       <div className="template-title">
         <h2 className="temp-head">Templates</h2>
         <p className="temp-para">Select a template to get started</p>
-        <Grid className="grid-container" container rowSpacing={1}>
-          <Grid xs={4}>
-            <Item>
-              <img className="temp1" src={templateOneImg}></img>
-              <Button className="use-template">Use Template</Button>
-            </Item>
+        <div className="container1">
+          <Grid className="grid-container" container rowSpacing={1}>
+            <Grid xs={4}>
+              <Item>
+                <img className="temp1" src={templateOneImg}></img>
+                <Button className="use-template">Use Template</Button>
+              </Item>
+            </Grid>
+            <Grid xs={4}>
+              <Item className="item1">
+                <img className="temp2" src={templateTwoImg}></img>
+                <Button className="use-template1">Use Template</Button>
+              </Item>
+            </Grid>
           </Grid>
-          <Grid xs={4}>
-            <Item>
-              <img className="temp2" src={templateTwoImg}></img>
-              <Button className="use-template1">Use Template</Button>
-            </Item>
-          </Grid>
-        </Grid>
+        </div>
       </div>
     </div>
   );

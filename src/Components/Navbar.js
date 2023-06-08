@@ -21,7 +21,7 @@ export const Navbar = () => {
         <NavLink to="/my/resumes" className="nav-link" color="inherit">
           My Resumes
         </NavLink>
-        <NavLink to="/about-us" color="inherit" className="nav-link">
+        <NavLink to="/aboutus" color="inherit" className="nav-link">
           About us
         </NavLink>
       </div>
